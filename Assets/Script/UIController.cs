@@ -165,9 +165,23 @@ public class UIController : MonoBehaviour
         Invoke("LoadSettings",1f);
     }
 
+
     private void LoadSettings(){
         clickSound.Play();
         SceneManager.LoadScene("Settings");
+    }
+
+    //Modyul 1
+    public void gotoModyul1(){
+    clickSound.Play();
+    HideAllScreen();
+    proceedText.SetActive(true);
+    Invoke("LoadModyul1",1f);
+    }
+
+    private void LoadModyul1(){
+        clickSound.Play();
+        SceneManager.LoadScene("Module_1");
     }
 
 }
