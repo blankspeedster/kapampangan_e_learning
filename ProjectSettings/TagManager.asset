@@ -12,6 +12,15 @@ TagManager:
   - Water
   - UI
   - ErrorText
+  - Background
+  - 
+  - Sprites
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Letters
   - 
   - 
   - 
@@ -27,17 +36,20 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ParticleSystem
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 470587489
+    locked: 0
+  - name: MidObjects
+    uniqueID: 3540675201
+    locked: 0
+  - name: Letters
+    uniqueID: 915603443
+    locked: 0
+  - name: ParticleSystem
+    uniqueID: 3946492757
     locked: 0

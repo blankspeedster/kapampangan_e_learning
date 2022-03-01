@@ -8,7 +8,7 @@ public class Scroller : MonoBehaviour {
     [SerializeField] private float _x, _y;
     
     void Start(){
-        Application.targetFrameRate = 120;   
+        Application.targetFrameRate = 30;   
     }
     void Update()
     {
